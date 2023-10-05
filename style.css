@@ -252,7 +252,18 @@ img {
 .button:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
-
+#button2 {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+    transition: .3s;
+}
+#button2:hover {
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+  }
 /* ===== ABOUT =====*/
 .about__container {
   row-gap: 2rem;
@@ -331,8 +342,8 @@ img {
   width: 65%;
 }
 
-.skills__ux {
-  width: 85%;
+.skills__py {
+  width: 65%;
 }
 
 .skills__img {
